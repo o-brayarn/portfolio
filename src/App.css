@@ -15,7 +15,7 @@
 .list-item:hover {
   color: tomato !important;
   text-decoration: underline;
-  text-decoration-thickness: 3px;
+  text-decoration-thickness: 2px;
 }
 .brand {
   font-family: "Alkatra", cursive;

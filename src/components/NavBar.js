@@ -30,7 +30,7 @@ export default function NavBar() {
     },
   ];
   return (
-    <Navbar className="navbar" bg="light" variant="light" expand="lg">
+    <Navbar className="navbar" variant="light" expand="lg">
       <Container>
         <Navbar.Brand className="brand" href="#home">
           brayarn ogeda

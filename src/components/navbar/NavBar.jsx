@@ -1,4 +1,5 @@
 import React from "react";
+import './navbar.css';
 import { Container, Nav, Navbar, NavLink } from "react-bootstrap";
 
 export default function NavBar() {

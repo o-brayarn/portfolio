@@ -1,13 +1,19 @@
 // import logo from './logo.svg';
 import "./App.css";
-import { NavBar } from "./components";
-import { LandingPage } from "./pages";
+import { About, NavBar, Projects, Services, Skills } from "./components";
+import { Contact, LandingPage } from "./pages";
 
 function App() {
   return (
     <>
       <NavBar />
+      <Contact />
       <LandingPage />
+      <About />
+      <Services />
+      <Skills />
+      <Projects />
+      <Contact />
     </>
   );
 }

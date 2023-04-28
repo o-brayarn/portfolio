@@ -1,8 +1,8 @@
 import React from 'react';
 import { RotatingText } from '../../components';
-import './landingpage.css'
+import './homepage.css'
 
-export default function LandingPage() {
+export default function HomePage() {
   return (
     <div className="portfolio__home" id='home'>
       <div className='portfolio__home-header'>

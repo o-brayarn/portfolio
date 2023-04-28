@@ -1,14 +1,14 @@
 // import logo from './logo.svg';
 import "./App.css";
 import { About, NavBar, Projects, Services, Skills } from "./components";
-import { Contact, LandingPage } from "./pages";
+import { Contact, HomePage } from "./pages";
 
 function App() {
   return (
     <>
       <NavBar />
       <Contact />
-      <LandingPage />
+      <HomePage />
       <About />
       <Services />
       <Skills />

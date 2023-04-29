@@ -4,11 +4,24 @@ import './homepage.css'
 
 export default function HomePage() {
   return (
-    <div className="portfolio__home" id='home'>
-      <div className='portfolio__home-header'>
-        <h1>Hi, I'm Brayarn</h1>
-        <RotatingText />
+    <div className="portfolio__home" id='home' href="#home">
+      <div className='portfolio__home-content'>
+         <div className='portfolio__header'>
+            <h1>Hi, I'm <span>Brayarn</span> </h1>
+            <RotatingText />
+        </div>
+        <div className='portfolio__home-content'>
+        <p>
+        A dedicated Software Engineer. Building Web applications with React, TypeScript, Ruby on Rails, JavaScript, MySQL/Postgres, among other frameworks and libraries.
+        </p>
       </div>
+      </div>
+
+      <div className='portfolio__home-image'>
+        {/* <img src={} alt="" /> */}
+      </div>
+     
+      
     </div>
   )
 }

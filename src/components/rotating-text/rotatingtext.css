@@ -1,5 +1,8 @@
 .rotating__text {
-  font-size: 700;
+  color: var(--text-color);
+  font-weight: 700;
+  font-family: (--font-family);
+  font-size: 1.8rem;
 }
 
 .react-rotating-text-cursor {

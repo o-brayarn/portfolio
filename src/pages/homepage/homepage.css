@@ -1,0 +1,30 @@
+.portfolio__home {
+  font-family: var(--font-family);
+  color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+  margin-right: 5rem;
+}
+.portfolio__header h1 {
+  font-weight: 700;
+  color: #fff;
+}
+.portfolio__header h1 span {
+  color: var(--color-subtext);
+  font-weight: 800;
+  font-size: 62px;
+}
+
+.portfolio__home-content {
+  font-family: var(--font-family);
+  color: var(--grey);
+  font-size: 18px;
+}
+
+.portfolio__home-content p {
+  margin-top: 1.5rem;
+}

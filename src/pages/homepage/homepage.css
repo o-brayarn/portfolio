@@ -1,17 +1,17 @@
 .portfolio__home {
   font-family: var(--font-family);
-  color: #fff;
+  color: var(--text-color);
 
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
 
   margin-right: 5rem;
 }
 .portfolio__header h1 {
   font-weight: 700;
-  color: #fff;
+  color: var(--text-color);
 }
 .portfolio__header h1 span {
   color: var(--color-subtext);
@@ -21,10 +21,11 @@
 
 .portfolio__home-content {
   font-family: var(--font-family);
-  color: var(--grey);
+  color: var(--secondary-text-color);
   font-size: 18px;
+  margin-left: 12.5%;
 }
 
-.portfolio__home-content p {
+.portfolio__home-content__details {
   margin-top: 1.5rem;
 }

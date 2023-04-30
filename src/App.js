@@ -7,12 +7,14 @@ function App() {
   return (
     <>
       <NavBar />
-      <HomePage />
-      <About />
-      <Services />
-      <Skills />
-      <Projects />
-      <Contact />
+      <div className="app__main">
+        <HomePage />
+        <About />
+        <Services />
+        <Skills />
+        <Projects />
+        <Contact />
+      </div>
     </>
   );
 }

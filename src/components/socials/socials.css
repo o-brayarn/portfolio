@@ -25,9 +25,17 @@
   vertical-align: middle;
 }
 
-.socials__github a:hover,
-.socials__linkedin a:hover,
-.socials__gmail a:hover,
-.socials__twitter a:hover {
-  cursor: pointer;
+/* Media Queries */
+
+@media screen and (max-width: 700px) {
+  .socials__container div {
+    margin-right: 1rem;
+    padding: 1rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .socials__container div {
+    margin-right: 0.7rem;
+    padding: 0.7rem;
+  }
 }

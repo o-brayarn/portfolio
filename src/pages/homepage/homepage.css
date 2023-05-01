@@ -28,3 +28,56 @@
 .portfolio__home-content__details {
   margin-top: 1.5rem;
 }
+.portfolio__buttons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.portfolio__buttons a {
+  color: var(--text-color);
+  text-align: center;
+  text-decoration: none;
+}
+
+.resume__btn button {
+  font-family: var(--font-family);
+  background: var(--bg-color);
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 2rem;
+  min-height: 3rem;
+  line-height: 27px;
+
+  border: 2px solid var(--color-subtext);
+  border-radius: 5px;
+  box-shadow: 0 3px 6px var(--secondary-text-color);
+  outline: none;
+}
+.contact__me-btn input {
+  color: var(--text-color);
+  background: var(--bg-color);
+  font-size: 20px;
+  font-weight: 600;
+  font-family: var(--font-family);
+  min-height: 3rem;
+  line-height: 27px;
+
+  border-radius: 5px;
+  border: 2px solid var(--color-subtext);
+  outline: none;
+  box-shadow: 0 3px 6px var(--secondary-text-color);
+}
+
+.resume__btn button:hover,
+.contact__me-btn input:hover {
+  color: var(--bg-color);
+  text-decoration: none;
+  background: var(--color-subtext);
+  box-shadow: 3px 5px 10px var(--text-color);
+  cursor: pointer;
+  transition: all 0.5s ease;
+  transform: scale(1.1);
+}
+.resume__btn a:hover {
+  color: var(--bg-color);
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { RotatingText } from '../../components';
+import { RotatingText, Socials } from '../../components';
 import './homepage.css'
 import { placeholder } from './imports';
 
@@ -29,7 +29,9 @@ export default function HomePage() {
             <input type="button" value="Contact Me" />
           </div>
         </div>
-        
+        <div className='social__icons'>
+          <Socials/>
+        </div>
       </div>
 
       <div className='portfolio__home-image'>

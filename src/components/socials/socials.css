@@ -1,12 +1,10 @@
 .socials__container {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
   margin-top: 1.2rem;
 }
 .socials__container div {
-  margin-right: 1.5rem;
-  padding: 1.5rem;
+  flex: 1;
+  margin-right: 1rem;
 }
 .socials__container div:hover {
   cursor: pointer;
@@ -18,24 +16,10 @@
 .socials__linkedin,
 .socials__gmail,
 .socials__twitter {
+  padding: 1rem;
   border-radius: 5px;
   box-shadow: 0 3px 6px var(--secondary-text-color);
 }
 .react-icons {
   vertical-align: middle;
-}
-
-/* Media Queries */
-
-@media screen and (max-width: 700px) {
-  .socials__container div {
-    margin-right: 1rem;
-    padding: 1rem;
-  }
-}
-@media screen and (max-width: 550px) {
-  .socials__container div {
-    margin-right: 0.7rem;
-    padding: 0.7rem;
-  }
 }

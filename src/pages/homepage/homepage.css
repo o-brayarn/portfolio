@@ -1,16 +1,27 @@
 .portfolio__home {
-  font-family: var(--font-family);
-  color: var(--text-color);
-
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-
   margin-right: 5rem;
 }
+.portfolio__home-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+  margin-right: 7rem;
+
+  font-family: var(--font-family);
+  color: var(--secondary-text-color);
+  font-size: 18px;
+}
+
 .portfolio__header h1 {
-  font-weight: 700;
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  letter-spacing: -0.04em;
   color: var(--text-color);
 }
 .portfolio__header h1 span {
@@ -19,19 +30,16 @@
   font-size: 62px;
 }
 
-.portfolio__home-content {
+.portfolio__home-content__details p {
   font-family: var(--font-family);
-  color: var(--secondary-text-color);
-  font-size: 18px;
-}
-
-.portfolio__home-content__details {
   margin-top: 1.5rem;
+  line-height: 27px;
 }
 .portfolio__buttons {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  flex-flow: row wrap;
 }
 .portfolio__buttons a {
   color: var(--text-color);
@@ -80,4 +88,66 @@
 }
 .resume__btn a:hover {
   color: var(--bg-color);
+}
+.portfolio__home-image img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Media queries */
+@media screen and (max-width: 1050px) {
+  .portfolio__home {
+    margin-right: 2rem;
+  }
+  .portfolio__home-content {
+    margin-right: 2rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .portfolio__home {
+    flex-direction: column-reverse;
+  }
+  .portfolio__home-content {
+    margin: 0 0 3rem;
+  }
+  .portfolio__home-image img {
+    margin: 2rem 25%;
+    width: 50%;
+    height: 50%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .portfolio__header h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .portfolio__header h1 span {
+    font-size: 44px;
+    line-height: 60px;
+  }
+  .portfolio__home-content__details p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .resume__btn button,
+  .contact__me-btn input {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .ai__header h1 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .portfolio__home-content__details p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .resume__btn button,
+  .contact__me-btn input {
+    font-size: 10px;
+    line-height: 16px;
+  }
 }

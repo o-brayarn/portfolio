@@ -1,0 +1,10 @@
+.portfolio__about {
+  margin-right: 5rem;
+}
+.about__content {
+  display: flex;
+}
+.portfolio__about-image img {
+  width: 516px;
+  height: 516px;
+}

@@ -1,6 +1,7 @@
 .portfolio__home {
   display: flex;
   margin-right: 5rem;
+  height: 100vh;
 }
 .portfolio__home-content {
   flex: 1;
@@ -90,8 +91,8 @@
   color: var(--bg-color);
 }
 .portfolio__home-image img {
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
 }
 
 /* Media queries */

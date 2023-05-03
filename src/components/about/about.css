@@ -30,6 +30,9 @@
   font-family: var(--font-family);
   color: var(--secondary-text-color);
 }
+.portfolio__about-content ul li {
+  margin-top: 0.5em;
+}
 .portfolio__about-content ul li::marker {
   content: "\2713";
   color: var(--color-subtext);

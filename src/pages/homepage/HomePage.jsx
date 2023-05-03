@@ -13,9 +13,7 @@ export default function HomePage() {
         </div>
 
         <div className='portfolio__home-content__details'>
-          <p>
-          A dedicated Software Engineer. Building Web applications with React, TypeScript, Ruby on Rails, JavaScript, MySQL/Postgres, among other frameworks and libraries.
-          </p>
+          <p>Dedicated software engineer with a passion about cutting-edge technology, beautifully crafted interfaces, and curating intuitive UX. I build web applications with React, TypeScript, Ruby on Rails, JavaScript, MySQL/Postgres, among other cool libraries and frameworks.</p>
         </div>
 
         <div className='portfolio__buttons'>

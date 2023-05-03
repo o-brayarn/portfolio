@@ -7,7 +7,7 @@ export default function About() {
   return (
     <>
       <div className='portfolio__about'>
-        <div className='portfolio-about-header'>
+        <div className='portfolio__about-header'>
           <h1>Who AM I?</h1>
         </div>
 

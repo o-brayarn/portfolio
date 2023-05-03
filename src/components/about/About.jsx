@@ -17,15 +17,13 @@ export default function About() {
           </div>
 
           <div className='portfolio__about-content'>
-            <p>
-              I am a Full Stack Web developer based in Nairobi, Kenya.
-            </p>
-            <p>
-              I have comprehensive skills in both front-end and back-end development. I am a self-driven, hard-working, and dedicated individual. I am also always on the lookout to learn new technologies, skills, and frameworks to improve my competency.
-            </p>
+            <p>I'm a Frontend and Backend web developer, based in Nairobi, Kenya, who finds fun in creating magical digital experiences!</p>
+            <p>My unique blend of creative thinking, design-first approach, technical expertise, and ability to work in a team allows me to approach each project with a deep understanding of the end user's perspective. This, with my background in Computer Science and Software Engineering, helps me come up with highly effective, user-centred digital products.</p>
             <ul>
-              <li>I create RESTFUL APIs</li>
-              <li>I do integration with third-party services like AWS</li>
+              <li> I'm self-driven, hardworking, and dedicated to meeting set objectives</li>
+              <li>I'm always on the lookout for open source projects to contribute to</li>
+              <li>I create RESTFUL APIS, responsive and minimalistic user interfaces, as well as integrate them.</li>
+              <li><span>Fun fact</span>: I'm a badass poet.</li>
             </ul>
           </div>
         </div>

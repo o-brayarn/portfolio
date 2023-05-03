@@ -1,10 +1,43 @@
 .portfolio__about {
+  margin-top: 5rem;
   margin-right: 5rem;
 }
 .about__content {
   display: flex;
+  flex-flow: row wrap;
 }
 .portfolio__about-image img {
   width: 516px;
   height: 516px;
+}
+.portfolio__about-header h1 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+  color: var(--text-color);
+  text-align: center;
+}
+.portfolio__about-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+  font-size: 18px;
+  font-family: var(--font-family);
+  color: var(--secondary-text-color);
+}
+.portfolio__about-content ul li::marker {
+  /* list-style-type: "\2713"; */
+  content: "\2713";
+  color: var(--color-subtext);
+  font-weight: 800;
+  margin-right: 20px;
+}
+.portfolio__about-content ul li span {
+  color: var(--text-color);
+  font-weight: 800;
 }

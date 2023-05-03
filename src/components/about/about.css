@@ -31,7 +31,6 @@
   color: var(--secondary-text-color);
 }
 .portfolio__about-content ul li::marker {
-  /* list-style-type: "\2713"; */
   content: "\2713";
   color: var(--color-subtext);
   font-weight: 800;

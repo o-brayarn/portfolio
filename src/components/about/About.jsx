@@ -5,8 +5,7 @@ import illustration from "../../assets/illustration.png";
 
 export default function About() {
   return (
-    <>
-      <div className='portfolio__about'>
+      <div className='portfolio__about' id='about'>
         <div className='portfolio__about-header'>
           <h1>Who AM I?</h1>
         </div>
@@ -22,7 +21,8 @@ export default function About() {
             <ul>
               <li> I'm self-driven, hardworking, and dedicated to meeting set objectives</li>
               <li>I'm always on the lookout for open source projects to contribute to</li>
-              <li>I create RESTFUL APIS, responsive and minimalistic user interfaces, as well as integrate them.</li>
+            <li>I create RESTFUL APIS, responsive and minimalistic user interfaces, as well as integrate them.</li>
+            <li> I'm also a technical and blockchain/crypto writer</li>
               <li><span>Fun fact</span>: I'm a badass poet.</li>
             </ul>
             <button>Hire me</button>
@@ -30,6 +30,5 @@ export default function About() {
         </div>
        
       </div>
-    </>
   )
 }

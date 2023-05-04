@@ -1,7 +1,9 @@
 .navbar {
   height: auto;
   min-height: 80px;
+  background-color: var(--bg-color);
 }
+
 .brand,
 .list-item {
   color: var(--text-color) !important;

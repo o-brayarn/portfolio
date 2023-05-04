@@ -25,6 +25,7 @@ export default function About() {
               <li>I create RESTFUL APIS, responsive and minimalistic user interfaces, as well as integrate them.</li>
               <li><span>Fun fact</span>: I'm a badass poet.</li>
             </ul>
+            <button>Hire me</button>
           </div>
         </div>
        

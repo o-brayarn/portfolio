@@ -1,11 +1,11 @@
 .navbar {
-  /* background: #2e158c; */
   height: auto;
   min-height: 80px;
 }
 .brand,
 .list-item {
   color: var(--text-color) !important;
+  font-size: 20px;
 }
 .list-item {
   display: flex !important;

@@ -6,19 +6,19 @@ export default function NavBar() {
   const menuData = [
     {
       path: "/home",
-      name: "HOME",
+      name: "Home",
     },
     {
       path: "/about",
-      name: "ABOUT",
+      name: "About",
     },
     {
       path: "/services",
-      name: "SERVICES",
+      name: "Services",
     },
     {
       path: "/skills",
-      name: "SKILLS",
+      name: "Skills",
     },
     // {
     //   path: "/experience",
@@ -26,11 +26,11 @@ export default function NavBar() {
     // },
     {
       path: "/contact",
-      name: "PROJECTS",
+      name: "Projects",
     },
     {
       path: "/contact",
-      name: "CONTACT",
+      name: "Contact",
     },
   ];
   return (

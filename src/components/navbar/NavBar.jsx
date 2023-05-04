@@ -33,8 +33,9 @@ export default function NavBar() {
       name: "Contact",
     },
   ];
+  
   return (
-    <Navbar className="navbar" variant="light" expand="lg">
+    <Navbar className="navbar" variant="light" expand="lg" sticky="top" >
       <Container>
         <Navbar.Brand className="brand" href="#home">
           brayarn ogeda

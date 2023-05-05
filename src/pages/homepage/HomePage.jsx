@@ -1,7 +1,7 @@
 import React from 'react';
 import { RotatingText, Socials } from '../../components';
 import './homepage.css'
-import { placeholder } from './imports';
+import { avatar } from './imports';
 
 export default function HomePage() {
   return (
@@ -33,7 +33,7 @@ export default function HomePage() {
       </div>
 
       <div className='portfolio__home-image'>
-        <img src={placeholder} alt="my profile" />
+        <img src={avatar} alt="my profile" />
       </div>
      
       

@@ -1,5 +1,4 @@
-import grad from "../../assets/grad.png";
 import Updated from "../../assets/Updated.pdf";
-import placeholder from "../../assets/placeholder.png";
+import avatar from "../../assets/avatar.png";
 
-export { grad, Updated, placeholder };
+export { Updated, avatar };

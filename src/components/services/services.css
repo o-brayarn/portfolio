@@ -1,3 +1,53 @@
-.portfolio__services{
-     margin-top: 5rem;
+.main__services {
+  margin-top: 5rem;
+  margin-right: 5rem;
+}
+.portfolio__services {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.portfolio__services div {
+  flex: 1;
+
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin-right: 2rem;
+  box-shadow: 0 3px 6px var(--secondary-text-color);
+}
+.portfolio__services div:hover {
+  cursor: pointer;
+  transition: all 0.5s ease;
+  margin-top: -10px;
+}
+.portfolio__services-frontend,
+.portfolio__services-API,
+.portfolio__services-project {
+  height: 14em;
+  font-family: var(--font-family);
+}
+.portfolio__services-frontend h5,
+.portfolio__services-API h5,
+.portfolio__services-project h5 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-color);
+}
+.portfolio__services-frontend h5:hover,
+.portfolio__services-API h5:hover,
+.portfolio__services-project h5:hover {
+  cursor: pointer;
+  color: var(--color-subtext);
+}
+.portfolio__services-frontend p,
+.portfolio__services-API p,
+.portfolio__services-project p {
+  font-size: 17px;
+  color: var(--secondary-text-color);
+}
+
+.services__end {
+  margin-top: 5rem;
 }

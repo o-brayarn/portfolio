@@ -28,7 +28,7 @@ export default function About() {
             <button>Hire me</button>
           </div>
         </div>
-       
+       <hr />
       </div>
   )
 }

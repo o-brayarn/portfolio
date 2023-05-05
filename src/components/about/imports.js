@@ -1,3 +1,3 @@
-import about from "../../assets/about.png";
+import profile from "../../assets/profile.png";
 
-export { about };
+export { profile };

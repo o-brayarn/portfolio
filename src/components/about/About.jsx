@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css'
-import illustration from "../../assets/illustration.png";
+import { profile } from './imports';
 
 
 export default function About() {
@@ -12,7 +12,7 @@ export default function About() {
 
         <div className='about__content'>
           <div className='portfolio__about-image'>
-            <img src={ illustration } alt="coder" />
+            <img src={ profile} alt="coder" />
           </div>
 
           <div className='portfolio__about-content'>

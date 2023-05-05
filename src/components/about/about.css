@@ -46,7 +46,7 @@
 }
 .portfolio__about-content button {
   font-family: var(--font-family);
-  background: var(--bg-color);
+  background: transparent;
   color: var(--text-color);
   font-size: 20px;
   font-weight: 600;

@@ -1,6 +1,7 @@
 .portfolio__home {
   display: flex;
   margin-right: 5rem;
+  margin-top: 10rem;
 }
 .portfolio__home-content {
   flex: 1;
@@ -51,7 +52,7 @@
 
 .resume__btn button {
   font-family: var(--font-family);
-  background: var(--bg-color);
+  background: transparent;
   font-size: 20px;
   font-weight: 600;
   margin-right: 2rem;
@@ -65,7 +66,7 @@
 }
 .contact__me-btn input {
   color: var(--text-color);
-  background: var(--bg-color);
+  background: transparent;
   font-size: 20px;
   font-weight: 600;
   font-family: var(--font-family);
@@ -101,6 +102,7 @@
 @media screen and (max-width: 1050px) {
   .portfolio__home {
     margin-right: 2rem;
+    margin-top: 5em;
   }
   .portfolio__home-content {
     margin-right: 2rem;

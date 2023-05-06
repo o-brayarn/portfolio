@@ -4,7 +4,6 @@
 }
 .about__content {
   display: flex;
-  flex-flow: row wrap;
 }
 .portfolio__about-image img {
   width: 516px;

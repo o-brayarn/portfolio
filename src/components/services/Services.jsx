@@ -1,6 +1,8 @@
-import React from 'react';
-import './services.css';
+import {Card} from 'react-bootstrap';
+import React from 'react'
+import './services.css'
 
+const Services = () => {
   const cardContent =
     [
       {
@@ -17,31 +19,24 @@ import './services.css';
       }
     ]
   return (
-    <>
-      <div className='main__services'>
-        <h1>What I do</h1>
-        <div className='portfolio__services'>
-              <div className='portfolio__services-frontend'>
-                <h5>Web Application Development</h5>
-                <hr />
-                <p>Need a website for your business? I'm your guy. I develop market-defining web applications, both backend and frontend, that meet client specifications and consumer needs.</p>
-              </div>
-
-              <div className='portfolio__services-API'>
-                <h5>Restful API Design & Integration</h5>
-                <hr />
-                <p>I can develop highly secure, fast, reliable, and scalable Restful API, as well as integrate it with your web application.</p>
-              </div>
-          
-              <div className='portfolio__services-project'>
-                <h5>Project Management</h5>
-                <hr />
-                <p>I can manage a team of developers to accomplish tasks, meet deadlines, and achieve project goals.</p>
-              </div>
+    <div className='main__services' >
+      <h1>What I do</h1>
+      <div className="card-group" >
+     {cardContent.map((context) => (
+      <div className='card'>
+        <div className='card-body'>
+          <Card.Title className="card-title" >{context.title}</Card.Title>
+          <p className='card-text'>
+            {context.text}
+          </p>
         </div>
-        <hr className='services__end'/>
       </div>
-      
-    </>
-  )
+      ))}
+      </div>
+      <hr />
+    </div>
+    
+  );
 }
+
+export default Services

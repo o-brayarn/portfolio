@@ -29,7 +29,6 @@
   background-color: transparent !important;
 }
 .card-body {
-  /* height: 14em; */
   font-family: var(--font-family) !important;
 }
 .card-body:hover {
@@ -65,56 +64,51 @@
     margin-right: 2rem;
     margin-top: 5em;
   }
-  .portfolio__services {
-    margin-right: 2rem;
-    flex-wrap: wrap;
-  }
-  .portfolio__services div {
-    display: flex;
-    margin-bottom: 1rem;
-  }
 }
-@media screen and (max-width: 992px) {
-  .portfolio__home {
-    flex-direction: column-reverse;
-  }
-  .portfolio__home-content {
-    margin: 0 0 3rem;
-  }
-  .portfolio__home-image img {
-    margin: 2rem 25%;
-    width: 50%;
-    height: 50%;
-  }
-}
+
 @media screen and (max-width: 650px) {
   .main__services h1 {
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 40px;
+    line-height: 50px;
   }
-  .portfolio__home-content__details p {
-    font-size: 16px;
-    line-height: 24px;
+  .card-group {
+    margin-right: 1rem;
   }
-  .resume__btn button,
-  .contact__me-btn input {
-    font-size: 16px;
-    line-height: 24px;
+  .card-title {
+    font-size: 18px !important;
+  }
+  .card-text {
+    font-size: 16px !important;
   }
 }
 
 @media screen and (max-width: 490px) {
-  .ai__header h1 {
+  .main__services h1 {
     font-size: 36px;
     line-height: 48px;
   }
-  .portfolio__home-content__details p {
-    font-size: 14px;
-    line-height: 24px;
+  .card {
+    margin-top: 1.5rem !important;
   }
-  .resume__btn button,
-  .contact__me-btn input {
-    font-size: 10px;
-    line-height: 16px;
+  .card-title {
+    font-size: 16px !important;
+  }
+  .card-text {
+    font-size: 15px !important;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  .card {
+    max-width: auto !important;
+    max-height: fit-content !important;
+    min-height: auto !important;
+    min-width: auto !important;
+  }
+  .card-title {
+    font-size: 15px !important;
+  }
+  .card-text {
+    font-size: 12px !important;
   }
 }

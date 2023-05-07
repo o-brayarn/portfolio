@@ -90,8 +90,8 @@
 }
 @media screen and (max-width: 650px) {
   .portfolio__about-header h1 {
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 30px;
+    line-height: 40px;
   }
   .portfolio__about-content p,
   .portfolio__about-content ul li {

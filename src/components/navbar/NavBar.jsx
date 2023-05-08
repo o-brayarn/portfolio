@@ -1,6 +1,7 @@
 import React from "react";
 import './navbar.css';
 import { Container, Nav, Navbar, NavLink } from "react-bootstrap";
+import logo from "../../assets/logo.png";
 
 export default function NavBar() {
   const menuData = [
@@ -38,7 +39,13 @@ export default function NavBar() {
     <Navbar className="navbar" variant="light" expand="lg" fixed="top" >
       <Container>
         <Navbar.Brand className="brand" href="#home">
-          brayarn ogeda
+           <img
+              src={logo}
+              width="80"
+              height="80"
+              className="d-inline-block align-top"
+              alt="BO: Bringing your ideas to life!"
+            />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" >

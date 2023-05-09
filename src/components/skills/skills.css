@@ -112,3 +112,13 @@
   background: var(--color-subtext);
   transform: translateX(-50%) rotate(45deg);
 }
+
+@keyframes progress {
+  0% {
+    width: 0;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}

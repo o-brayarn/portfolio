@@ -67,6 +67,13 @@
   transition: all 0.5s ease;
 }
 
+.portfolio__about hr {
+  margin-top: 3rem;
+  border: none;
+  background: #000;
+  height: 0.15em;
+}
+
 /* Media queries */
 @media screen and (max-width: 1050px) {
   .portfolio__about {
@@ -109,7 +116,7 @@
 
 @media screen and (max-width: 490px) {
   .portfolio__about-header h1 {
-    font-size: 36px;
+    font-size: 25px;
     line-height: 48px;
   }
   .portfolio__about-content p,

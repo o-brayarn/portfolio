@@ -1,5 +1,5 @@
 .main__services {
-  margin-top: 5rem;
+  margin-top: 3.5em;
   margin-right: 5rem;
 }
 .main__services h1 {
@@ -55,14 +55,17 @@
 }
 
 .main__services hr {
-  margin-top: 5rem;
+  margin-top: 6em;
+  border: none;
+  background: #000;
+  height: 0.15rem;
 }
 
 /* Media Queries */
 @media screen and (max-width: 1050px) {
   .main__services {
-    margin-right: 2rem;
-    margin-top: 5em;
+    margin-right: 1rem;
+    margin-top: 2em;
   }
 }
 
@@ -84,7 +87,7 @@
 
 @media screen and (max-width: 490px) {
   .main__services h1 {
-    font-size: 36px;
+    font-size: 25px;
     line-height: 48px;
   }
   .card {

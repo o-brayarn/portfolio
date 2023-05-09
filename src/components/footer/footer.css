@@ -1,0 +1,18 @@
+.portfolio__footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  font-family: var(--font-family);
+  color: var(--text-color);
+  border-radius: 10px;
+  background: var(--color-subtext);
+
+  margin: 3rem 0;
+  margin-right: 5rem;
+  padding: 2rem 2rem;
+}
+.portfolio__footer .footer__socials,
+.portfolio__footer .footer__content {
+  margin-right: 10rem;
+}

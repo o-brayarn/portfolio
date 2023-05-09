@@ -112,6 +112,12 @@
   background: var(--color-subtext);
   transform: translateX(-50%) rotate(45deg);
 }
+.portfolio__skills hr {
+  margin-top: 3rem;
+  border: none;
+  background: #000;
+  height: 0.15rem;
+}
 
 @keyframes progress {
   0% {

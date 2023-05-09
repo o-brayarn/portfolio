@@ -122,3 +122,29 @@
     opacity: 1;
   }
 }
+
+/* Media Queries */
+@media screen and (max-width: 780px) {
+  .portfolio__skills {
+    margin-right: 2rem;
+  }
+  .skills__container {
+    flex-direction: column;
+  }
+  .portfolio__skills-box .title {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 490px) {
+  .portfolio__skills-bar {
+    height: 0.3rem;
+  }
+
+  .skills__percentage .skills__tooltip {
+    right: -20px;
+    top: -30px;
+  }
+  .portfolio__skills-box .title {
+    font-size: 10px;
+  }
+}

@@ -1,6 +1,13 @@
 // import logo from './logo.svg';
 import "./App.css";
-import { About, NavBar, Projects, Services, Skills } from "./components";
+import {
+  About,
+  Footer,
+  NavBar,
+  Projects,
+  Services,
+  Skills,
+} from "./components";
 import { Contact, HomePage } from "./pages";
 
 function App() {
@@ -14,6 +21,7 @@ function App() {
         <Skills />
         <Projects />
         <Contact />
+        <Footer />
       </div>
     </>
   );

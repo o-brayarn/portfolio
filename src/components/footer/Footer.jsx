@@ -6,7 +6,18 @@ export default function Footer() {
   let year = new Date().getFullYear();
   return (
     <>
-      <div className="portfolio__footer">
+         <div className="main__footer">
+            <div className="portfolio__brand">
+              <img
+                  src={logo}
+                  width="80"
+                  height="80"
+                  className="d-inline-block align-top"
+                  alt="BO: Bringing your ideas to life!"
+              />
+              <h5>Bringing your ideas to life</h5>
+            </div>
+          
         <div className="footer__links">
           <h5>Important Links</h5>
           <ul>

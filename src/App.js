@@ -1,14 +1,7 @@
 // import logo from './logo.svg';
 import "./App.css";
-import {
-  About,
-  Footer,
-  NavBar,
-  Projects,
-  Services,
-  Skills,
-} from "./components";
-import { Contact, HomePage } from "./pages";
+import { About, NavBar, Projects, Services, Skills } from "./components";
+import { Footer, Contact, HomePage } from "./pages";
 
 function App() {
   return (

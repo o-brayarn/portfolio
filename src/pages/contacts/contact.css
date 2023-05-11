@@ -42,7 +42,7 @@ section .contact__me-heading {
   font-weight: 600;
 }
 .contact__me-socials {
-  width: 50%;
+  max-width: 50%;
   margin-top: 2rem;
 }
 .contact__me-socials p {
@@ -110,6 +110,10 @@ section .contact__me-heading {
   .contact__me-details {
     flex-direction: column;
   }
+  .contact__me-socials {
+    max-width: 30%;
+    width: auto;
+  }
   .contact__me-form,
   .contact__me-info {
     width: 100%;
@@ -135,5 +139,10 @@ section .contact__me-heading {
   }
   .contact__me-form label {
     font-size: 14px;
+  }
+}
+@media screen and (max-width: 490px) {
+  .contact__me-info {
+    padding: 0.5em 0.5em;
   }
 }

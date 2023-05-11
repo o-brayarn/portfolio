@@ -6,19 +6,19 @@ import logo from "../../assets/logo.png";
 export default function NavBar() {
   const menuData = [
     {
-      path: "/home",
+      path: "home",
       name: "Home",
     },
     {
-      path: "/about",
+      path: "about",
       name: "About",
     },
     {
-      path: "/services",
+      path: "services",
       name: "Services",
     },
     {
-      path: "/skills",
+      path: "skills",
       name: "Skills",
     },
     // {
@@ -26,11 +26,11 @@ export default function NavBar() {
     //   name: "EXPERIENCE",
     // },
     {
-      path: "/contact",
+      path: "projects",
       name: "Projects",
     },
     {
-      path: "/contact",
+      path: "contact",
       name: "Contact",
     },
   ];
@@ -51,8 +51,8 @@ export default function NavBar() {
         <Navbar.Collapse id="basic-navbar-nav" >
           <Nav className="ms-auto gap-5 px-3">
             {menuData.map((item) => (
-              <NavLink to={item.path} key={item.name}>
-                <div className="list-item">{item.name}</div>
+              <NavLink to={item.path} key={item.name} href={`#${item.path}`}>
+                <div className="list-item" >{item.name}</div>
               </NavLink>
             ))}
           </Nav>

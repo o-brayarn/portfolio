@@ -25,7 +25,9 @@ export default function About() {
             <li> I'm also a technical and blockchain/crypto writer</li>
               <li><span>Fun fact</span>: I'm a badass poet.</li>
             </ul>
-            <button>Hire me</button>
+          <button>
+            <a href="#contact">  Hire me</a>
+          </button>
           </div>
         </div>
        <hr />

@@ -46,7 +46,6 @@
 .portfolio__about-content button {
   font-family: var(--font-family);
   background: transparent;
-  color: var(--text-color);
   font-size: 20px;
   font-weight: 600;
   margin-right: 2rem;
@@ -57,6 +56,10 @@
   border-radius: 5px;
   box-shadow: 0 3px 6px var(--secondary-text-color);
   outline: none;
+}
+.portfolio__about-content button a {
+  color: var(--text-color);
+  text-decoration: none;
 }
 .portfolio__about-content button:hover {
   color: var(--bg-color);

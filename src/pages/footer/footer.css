@@ -1,15 +1,19 @@
 .portfolio__footer {
   font-family: var(--font-family);
-  color: var(--text-color);
-  margin: 3rem 0;
-  margin-right: 5rem;
-  padding: 2rem 2rem;
+  color: var(--bg-color);
+  /* margin: 3rem 0; */
+  padding: 2rem 0rem;
+  background: var(--color-subtext);
+  width: 100%;
 }
 .main__footer {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   width: 70%;
+
+  margin-left: 12.5%;
+  margin-right: 5rem;
 }
 .portfolio__brand h5 {
   font-family: "Alkatra";
@@ -28,20 +32,20 @@
 .footer__links ul li,
 .footer__socials ul li {
   margin: 0.8em 0.8em 0 0;
-  color: var(--text-color);
+  color: var(--bg-color);
   font-weight: 500;
 }
 .footer__links ul li a,
 .footer__socials ul li a {
   text-decoration: none;
-  color: var(--text-color);
+  color: var(--bg-color);
   font-size: 16px;
   letter-spacing: -0.04em;
 }
 .footer__links ul li a:hover,
 .footer__socials ul li a:hover {
   cursor: pointer;
-  color: var(--color-subtext);
+  color: var(--text-color);
 }
 
 .footer__copyright p {
@@ -57,7 +61,7 @@
 }
 .footer__copyright span a:hover {
   cursor: pointer;
-  color: var(--color-subtext);
+  color: var(--bg-color);
 }
 
 @media screen and (max-width: 1020px) {
@@ -94,9 +98,10 @@
 }
 @media screen and (max-width: 540px) {
   .main__footer {
+    flex: 1;
     justify-content: center;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
   .portfolio__brand,
   .footer__links,

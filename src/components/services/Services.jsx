@@ -23,7 +23,7 @@ const Services = () => {
       <h1>What I do</h1>
       <div className="card-group" >
      {cardContent.map((context) => (
-      <div className='card'>
+      <div className='card' key={context.title}>
         <div className='card-body'>
           <Card.Title className="card-title" >{context.title}</Card.Title>
           <p className='card-text'>

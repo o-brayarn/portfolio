@@ -98,3 +98,42 @@ section .contact__me-heading {
 .contact__me-form textarea[type="text"]:focus {
   outline: 2px solid var(--color-subtext);
 }
+
+@media screen and (max-width: 992px) {
+  section {
+    margin-right: 1rem;
+  }
+  section .contact__me-heading {
+    font-size: 40px;
+    line-height: 70px;
+  }
+  .contact__me-details {
+    flex-direction: column;
+  }
+  .contact__me-form,
+  .contact__me-info {
+    width: 100%;
+    margin-top: 1.4em;
+  }
+  .contact__me-form label,
+  .contact__me-form input,
+  .contact__me-form textarea {
+    margin-left: 1em;
+  }
+}
+@media screen and (max-width: 650px) {
+  section .contact__me-heading {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .contact__me-info h5 {
+    font-size: 18px;
+    margin-bottom: 1em;
+  }
+  .contact__me-info p {
+    font-size: 14px;
+  }
+  .contact__me-form label {
+    font-size: 14px;
+  }
+}

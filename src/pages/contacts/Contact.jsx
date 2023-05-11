@@ -23,8 +23,8 @@ export default function Contact() {
       <div className="contact__me-details">
         <div className="contact__me-info">
           <h5>Get in touch:</h5>
-          <p> <span> Email: </span>brayarnogeda@gmail.com</p>
-          <p><span> Phone: </span>+254741280129</p>
+          <p> <span> Email: {" "}</span>brayarnogeda@gmail.com</p>
+          <p><span> Phone:{" "}</span>+254741280129</p>
           <p>Open for fulltime and freelance opportunities. Let's connect and build something awesome together!</p>
           <div className='contact__me-socials'>
             <p>Find me on:</p>

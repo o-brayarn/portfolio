@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './contact.css';
+import Socials from '../../components/socials/Socials'
 
 export default function Contact() {
   const form = useRef();
@@ -16,22 +17,34 @@ export default function Contact() {
       });
   };
   return (
-    <div id='contact'>
-      <h1 className="contact__me__heading">Contact Me</h1>
-
-      <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
-      </form>
+    <section id='contact'>
+      <h1 className="contact__me-heading">Contact Me</h1>
       
-      Open for opportunities. Let's connect and build something awesome together!
+      <div className="contact__me-details">
+        <div className="contact__me-info">
+          <h5>Get in touch:</h5>
+          <p> <span> Email: </span>brayarnogeda@gmail.com</p>
+          <p><span> Phone: </span>+254741280129</p>
+          <p>Open for fulltime and freelance opportunities. Let's connect and build something awesome together!</p>
+          <div className='contact__me-socials'>
+            <p>Find me on:</p>
+            <Socials />
+          </div>
+        </div>
 
+        <div className="contact__me-form">
+           <form ref={form} onSubmit={sendEmail}>
+              <label>Name</label>
+              <input type="text" name="user_name" />
+              <label>Email</label>
+              <input type="email" name="user_email" />
+              <label>Message</label>
+              <textarea type="text" name="message" />
+              <input type="submit" value="Send Message" className='form__btn'/>
+            </form>
+        </div>
+      </div>
       <hr />
-    </div>
+    </section>
   )
 }

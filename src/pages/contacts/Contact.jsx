@@ -9,12 +9,13 @@ export default function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+    emailjs.sendForm('service_neiz0e8', 'template_ajobvby', form.current, 'NUDmFNU_jpGegkl9u')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
       });
+    e.target.reset()
   };
   return (
     <section id='contact'>

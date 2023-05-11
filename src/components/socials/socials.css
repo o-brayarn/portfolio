@@ -23,3 +23,15 @@
 .react-icons {
   vertical-align: middle;
 }
+
+/* Media queries */
+@media screen and (max-width: 490px) {
+  .socials__github,
+  .socials__linkedin,
+  .socials__gmail,
+  .socials__twitter {
+    padding: 0.8em;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px var(--secondary-text-color);
+  }
+}

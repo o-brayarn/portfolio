@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import "./App.css";
-import { About, NavBar, Services, Skills } from "./components";
+import { About, NavBar, Projects, Services, Skills } from "./components";
 import { Contact, HomePage } from "./pages";
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
         <About />
         <Services />
         <Skills />
-        {/* <Projects /> */}
+        <Projects />
         <Contact />
       </div>
       {/* <Footer /> */}

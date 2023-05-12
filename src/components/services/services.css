@@ -12,17 +12,17 @@
   text-align: left;
 }
 .card-group {
-  margin-right: 2rem;
+  margin-right: 0.5rem;
 }
 .card {
   margin-top: 3rem !important;
   margin-right: 2rem !important;
   padding: 10px !important;
 
-  max-width: 25rem !important;
-  min-width: 18rem !important;
-  max-height: 15rem !important;
+  max-width: 30em !important;
+  min-width: 18em !important;
   min-height: 15rem !important;
+
   border: none !important;
   border-radius: 10px !important;
   box-shadow: 0 3px 6px var(--secondary-text-color) !important;
@@ -43,6 +43,7 @@
   font-weight: 600 !important;
   color: var(--text-color) !important;
   margin-bottom: 1em !important;
+  padding-top: 10px !important;
 }
 
 .card-title:hover {
@@ -51,7 +52,8 @@
 }
 .card-text {
   font-size: 17px !important;
-  color: var(--secondary-text-color) !important;
+  color: var(--text-color) !important;
+  padding-bottom: 10px !important;
 }
 
 .main__services hr {

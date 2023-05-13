@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     <>
       <div className="portfolio__skills" id="skills">
-        <h1>My Skills</h1>
+        <h1 className='gradient__text'>My Skills</h1>
         <div className="skills__container">
           <div className="development__skills">
             <h2 className="title__text">Development Skills</h2>

@@ -8,7 +8,7 @@ export default function HomePage() {
     <div className="portfolio__home" id='home' href="#home">
       <div className='portfolio__home-content'>
          <div className='portfolio__header'>
-            <h1>Hi, I'm <span>Brayarn</span> </h1>
+            <h1 className='gradient__text'>Hi, I'm <span>Brayarn</span> </h1>
             <RotatingText />
         </div>
 

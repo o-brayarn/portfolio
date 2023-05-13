@@ -5,8 +5,11 @@ import { Contact, HomePage } from "./pages";
 
 function App() {
   return (
-    <>
-      <NavBar />
+    <div className="App">
+      <div className="main__header">
+        <NavBar />
+      </div>
+
       <div className="app__main">
         <HomePage />
         <About />
@@ -16,7 +19,7 @@ function App() {
         <Contact />
       </div>
       {/* <Footer /> */}
-    </>
+    </div>
   );
 }
 

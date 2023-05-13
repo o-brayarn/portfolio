@@ -3,6 +3,7 @@ import emailjs from '@emailjs/browser';
 import './contact.css';
 import Socials from '../../components/socials/Socials'
 
+
 export default function Contact() {
   const form = useRef();
 
@@ -22,7 +23,7 @@ export default function Contact() {
       <h1 className="contact__me-heading gradient__text">Contact Me</h1>
       <div className="contact__me-details">
         <div className="contact__me-info">
-          <h5 className='gradient__text'>Get in touch:</h5>
+          <h5 className='gradient__text'>Get in touch</h5>
           <p> <span> Email: {" "}</span>brayarnogeda@gmail.com</p>
           <p><span> Phone:{" "}</span>+254741280129</p>
           <p>Open for fulltime and freelance opportunities. Let's connect and build something awesome together!</p>

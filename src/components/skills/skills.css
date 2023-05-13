@@ -47,8 +47,8 @@
   width: 100%;
   border-radius: 6px;
   margin-top: 6px;
-  background-color: rgba(0, 0, 0, 0.1);
-  transform: skew(30deg);
+  background-color: rgba(0, 0, 0, 0.4);
+  /* transform: skew(30deg); */
 }
 
 .portfolio__skills-box .skills__percentage {

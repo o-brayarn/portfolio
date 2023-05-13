@@ -10,8 +10,7 @@ section .contact__me-heading {
   font-size: 48px;
   line-height: 75px;
   letter-spacing: -0.04em;
-  text-align: right;
-  margin-right: 2rem;
+  text-align: center;
   margin-bottom: 1rem;
 }
 .contact__me-details {
@@ -58,7 +57,7 @@ section .contact__me-heading {
 .contact__me-form input,
 .contact__me-form textarea {
   color: var(--text-color);
-  background-color: var(--bg-color);
+  background-color: var(--color-bg);
   letter-spacing: -0.04em;
   display: block;
   margin: 0.5em 0;

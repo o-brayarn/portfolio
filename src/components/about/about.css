@@ -28,7 +28,7 @@
 
   font-size: 18px;
   font-family: var(--font-family);
-  color: var(--secondary-text-color);
+  color: var(--text-color);
 }
 .portfolio__about-content ul li {
   margin-top: 0.5em;
@@ -60,14 +60,14 @@
 .portfolio__about-content button a {
   color: var(--text-color);
   text-decoration: none;
+  padding: 4px;
 }
 .portfolio__about-content button:hover {
   color: var(--bg-color);
-  text-decoration: none;
   background: var(--color-subtext);
-  box-shadow: 3px 5px 10px var(--text-color);
   cursor: pointer;
-  transition: all 0.5s ease;
+  transition: all 0.8s ease-in-out;
+  transform: scale(1.2);
 }
 
 .portfolio__about hr {

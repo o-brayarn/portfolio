@@ -9,8 +9,7 @@
   line-height: 75px;
   letter-spacing: -0.04em;
   color: var(--text-color);
-  text-align: right;
-  margin-right: 2rem;
+  text-align: center;
   margin-bottom: 1rem;
 }
 .skills__container {

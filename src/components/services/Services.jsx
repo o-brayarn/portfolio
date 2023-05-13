@@ -20,7 +20,7 @@ const Services = () => {
     ]
   return (
     <div className='main__services' id='services'>
-      <h1>What I do</h1>
+      <h1 className='gradient__text'>What I do</h1>
       <div className="card-group" >
      {cardContent.map((context) => (
       <div className='card' key={context.title}>

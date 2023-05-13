@@ -49,7 +49,7 @@ export default function NavBar() {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" >
-          <Nav className="ms-auto gap-5 px-3">
+          <Nav className="ms-auto gap-1 px-2">
             {menuData.map((item) => (
               <NavLink to={item.path} key={item.name} href={`#${item.path}`}>
                 <div className="list-item" >{item.name}</div>

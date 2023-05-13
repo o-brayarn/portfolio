@@ -1,12 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
 :root {
   --primary-color: #f9f9f9;
   --secondary-color: #deb887;
   --bg-color: #f9f9f9;
   --hl-color: #009e66;
-  /* --text-color: #083344; */
-  --text-color: #083344;
-  /* --secondary-text-color: #155e75; */
+  --text-color: #81afdd;
   --secondary-text-color: #083344;
   --spacing: 50px;
   --sm-spacing: 30px;
@@ -16,23 +15,17 @@
   --color-blog: #042c54;
   --color-text: #81afdd;
   --color-subtext: tomato;
+  /* --color-subtext: #ff8a71; */
+
+  --gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%);
+  --color-bg: #040c18;
 }
 html,
 body,
 #root {
   height: 100%;
-  background-color: var(--bg-color);
-  /* background-image: linear-gradient(
-    109.5deg,
-    rgba(229, 233, 177, 1) 11.2%,
-    rgba(223, 205, 187, 1) 100.2%
-  ); */
-
-  /* background-image: linear-gradient(
-    109.9deg,
-    rgba(251, 189, 100, 1) 1.8%,
-    rgba(255, 207, 139, 1) 95.4%
-  ); */
+  background-color: var(--color-bg);
 }
 body {
   font-family: var(--font-family);

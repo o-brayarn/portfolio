@@ -47,7 +47,7 @@ export default function NavBar() {
               alt="BO: Bringing your ideas to life!"
             />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className="navbar__toggle" />
         <Navbar.Collapse id="basic-navbar-nav" >
           <Nav className="ms-auto gap-1 px-2">
             {menuData.map((item) => (

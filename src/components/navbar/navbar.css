@@ -26,3 +26,7 @@
 .brand:hover {
   color: var(--color-subtext) !important;
 }
+
+.navbar__toggle {
+  background: var(--gradient-bar) !important;
+}

@@ -108,6 +108,9 @@ section hr {
   background: var(--gradient-bar);
   height: 0.15rem;
 }
+.contact__me-form label span {
+  color: red;
+}
 
 /* Media Queries */
 @media screen and (max-width: 992px) {

@@ -36,7 +36,7 @@ export default function NavBar() {
   ];
   
   return (
-    <Navbar className="navbar" variant="light" expand="lg" fixed="top" >
+    <Navbar className="navbar" variant="dark" expand="lg" fixed="top" >
       <Container>
         <Navbar.Brand className="brand" href="#home">
            <img
@@ -47,7 +47,7 @@ export default function NavBar() {
               alt="BO: Bringing your ideas to life!"
             />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" className="navbar__toggle" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className="navbar__toggler" />
         <Navbar.Collapse id="basic-navbar-nav" >
           <Nav className="ms-auto gap-1 px-2">
             {menuData.map((item) => (

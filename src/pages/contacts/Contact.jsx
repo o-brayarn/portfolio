@@ -35,12 +35,14 @@ export default function Contact() {
 
         <div className="contact__me-form">
            <form ref={form} onSubmit={sendEmail}>
-              <label>Name</label>
-              <input type="text" name="user_name" />
-              <label>Email</label>
-              <input type="email" name="user_email" />
-              <label>Message</label>
-              <textarea type="text" name="message" />
+              <label>Name <span>*</span></label>
+              <input type="text" name="user_name" required />
+              <label>Email<span>*</span></label>
+             <input type="email" name="user_email" required />
+              <label>Phone Number<span>*</span></label>
+              <input type="text" name="user_phone" required />
+              <label>Message<span>*</span></label>
+              <textarea type="text" name="message" required />
               <input type="submit" value="Send Message" className='form__btn'/>
             </form>
         </div>

@@ -28,5 +28,6 @@
 }
 
 .navbar__toggle {
-  background: var(--gradient-bar) !important;
+  /* background: var(--text-color) !important; */
+  border: 1px solid var(--color-subtext) !important;
 }

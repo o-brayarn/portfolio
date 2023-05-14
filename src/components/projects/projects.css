@@ -1,0 +1,20 @@
+.portfolio__projects {
+  margin-top: 3rem;
+  margin-right: 5rem;
+}
+.portfolio__projects-heading h1 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+  color: var(--text-color);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.portfolio__projects hr {
+  margin-top: 3rem;
+  border: none;
+  background: var(--gradient-bar);
+  height: 0.15rem;
+}

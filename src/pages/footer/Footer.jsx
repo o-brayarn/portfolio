@@ -17,7 +17,7 @@ export default function Footer() {
                   className="d-inline-block align-top"
                   alt="BO: Bringing your ideas to life!"
               />
-              <h5>Bringing your ideas to life</h5>
+              <h5 className="gradient__text">Bringing your ideas to life</h5>
             </div>
           
             {/* <div className="footer__links">

@@ -73,10 +73,10 @@
     flex-wrap: wrap;
     width: 100%;
   } */
-  .footer__links h5,
+  /* .footer__links h5,
   .footer__socials h5 {
     font-size: 20px;
-  }
+  } */
 }
 @media screen and (max-width: 650px) {
   /* .footer__links h5,
@@ -116,5 +116,6 @@
   } */
   .footer__copyright p {
     font-size: 10px;
+    line-height: 15px;
   }
 }

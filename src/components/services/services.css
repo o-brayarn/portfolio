@@ -59,7 +59,7 @@
 .main__services hr {
   margin-top: 6em;
   border: none;
-  background: #000;
+  background: var(--gradient-bar);
   height: 0.15rem;
 }
 

@@ -120,7 +120,7 @@
 .portfolio__skills hr {
   margin-top: 3rem;
   border: none;
-  background: #000;
+  background: var(--gradient-bar);
   height: 0.15rem;
 }
 

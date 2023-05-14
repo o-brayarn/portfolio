@@ -102,6 +102,14 @@ section .contact__me-heading {
   outline: 2px solid var(--color-subtext);
 }
 
+section hr {
+  margin-top: 3rem;
+  border: none;
+  background: var(--gradient-bar);
+  height: 0.15rem;
+}
+
+/* Media Queries */
 @media screen and (max-width: 992px) {
   section {
     margin-right: 1rem;

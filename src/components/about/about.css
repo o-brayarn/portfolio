@@ -62,12 +62,12 @@
   text-decoration: none;
   padding: 4px;
 }
-.portfolio__about-content button:hover {
-  color: var(--bg-color);
+.portfolio__about-content button:hover,
+.portfolio__about-content button a:hover {
+  color: #fff;
   background: var(--color-subtext);
   cursor: pointer;
   transition: all 0.8s ease-in-out;
-  transform: scale(1.2);
 }
 
 .portfolio__about hr {

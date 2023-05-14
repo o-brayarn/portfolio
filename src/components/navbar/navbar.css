@@ -21,9 +21,6 @@
   text-decoration-skip-ink: auto;
   text-decoration-thickness: 2px;
 }
-.brand {
-  font-family: "Alkatra", cursive;
-}
 .brand:hover {
   color: var(--color-subtext) !important;
 }

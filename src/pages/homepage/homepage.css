@@ -96,8 +96,12 @@
   width: 516px;
   height: 516px;
   border-radius: 50%;
+  opacity: 0.8;
 }
-
+.portfolio__home-image img:hover {
+  cursor: pointer;
+  opacity: 1;
+}
 /* Media queries */
 @media screen and (max-width: 1050px) {
   .portfolio__home {

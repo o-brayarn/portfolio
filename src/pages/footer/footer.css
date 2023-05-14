@@ -1,12 +1,9 @@
 .portfolio__footer {
   font-family: var(--font-family);
-  color: var(--bg-color);
   /* margin: 3rem 0; */
-  padding: 2rem 0rem;
-  background: var(--color-subtext);
-  width: 100%;
+  /* padding: 2rem 0rem; */
 }
-.main__footer {
+/* .main__footer {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -14,17 +11,18 @@
 
   margin-left: 12.5%;
   margin-right: 5rem;
-}
-.portfolio__brand h5 {
+} */
+.portfolio__brand {
   font-family: "Alkatra";
   font-size: 22px;
+  text-align: center;
 }
-.footer__links h5,
+/* .footer__links h5,
 .footer__socials h5 {
   text-align: center;
   font-weight: 600;
-}
-.footer__links ul,
+} */
+/* .footer__links ul,
 .footer__socials ul {
   list-style-type: none;
   margin-top: 1em;
@@ -34,8 +32,8 @@
   margin: 0.8em 0.8em 0 0;
   color: var(--bg-color);
   font-weight: 500;
-}
-.footer__links ul li a,
+} */
+/* .footer__links ul li a,
 .footer__socials ul li a {
   text-decoration: none;
   color: var(--bg-color);
@@ -46,7 +44,7 @@
 .footer__socials ul li a:hover {
   cursor: pointer;
   color: var(--text-color);
-}
+} */
 
 .footer__copyright p {
   text-align: center;
@@ -56,7 +54,7 @@
 }
 .footer__copyright span a {
   text-decoration: none;
-  color: var(--text-color);
+  color: var(--color-subtext);
   font-family: "Alkatra";
 }
 .footer__copyright span a:hover {
@@ -65,57 +63,57 @@
 }
 
 @media screen and (max-width: 1020px) {
-  .portfolio__footer {
+  /* .portfolio__footer {
     margin-right: 2rem;
-  }
+  } */
   .portfolio__brand h5 {
     font-size: 15px;
   }
-  .main__footer {
+  /* .main__footer {
     flex-wrap: wrap;
     width: 100%;
-  }
+  } */
   .footer__links h5,
   .footer__socials h5 {
     font-size: 20px;
   }
 }
 @media screen and (max-width: 650px) {
-  .footer__links h5,
+  /* .footer__links h5,
   .footer__socials h5 {
     font-size: 15px;
-  }
+  } */
   .portfolio__brand h5 {
     font-size: 12px;
   }
-  .footer__links ul li a,
+  /* .footer__links ul li a,
   .footer__socials ul li a {
     font-size: 12px;
-  }
+  } */
   .footer__copyright p {
     font-size: 14px;
   }
 }
 @media screen and (max-width: 540px) {
-  .main__footer {
+  /* .main__footer {
     flex: 1;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-  }
-  .portfolio__brand,
+  } */
+  /* .portfolio__brand,
   .footer__links,
   .footer__socials {
     margin-top: 1rem;
-  }
-  .footer__links h5,
+  } */
+  /* .footer__links h5,
   .footer__socials h5 {
     text-align: left;
   }
   .footer__links ul li,
   .footer__socials ul li {
     text-align: left;
-  }
+  } */
   .footer__copyright p {
     font-size: 10px;
   }

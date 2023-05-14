@@ -20,7 +20,7 @@ export default function Footer() {
               <h5>Bringing your ideas to life</h5>
             </div>
           
-            <div className="footer__links">
+            {/* <div className="footer__links">
               <h5>Links</h5>
               <ul>
                 <li> <a href="#home">Home</a></li>
@@ -29,9 +29,9 @@ export default function Footer() {
                 <li> <a href="#projects">Projects</a></li>
                 <li> <a href="#contact">Contact</a></li>
               </ul>
-            </div>
+            </div> */}
 
-            <div className="footer__socials">
+            {/* <div className="footer__socials">
               <h5>Find me on:</h5>
               <ul className="socials__links">
                 <li><a href="https://github.com/o-brayarn" target="_blank"  rel="noopener noreferrer">Github</a></li>
@@ -39,7 +39,7 @@ export default function Footer() {
                 <li><a href="mailto: brayarnogeda@gmail.com" target="_blank"  rel="noopener noreferrer">Email</a></li>
                 <li><a href="https://twitter.com/o_brayarn" target="_blank"  rel="noopener noreferrer">Twitter</a></li>
               </ul>
-            </div>
+            </div> */}
           
           </div>
       

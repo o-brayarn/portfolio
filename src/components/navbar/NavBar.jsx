@@ -36,7 +36,7 @@ export default function NavBar() {
   ];
   
   return (
-    <Navbar className="navbar" variant="dark" expand="lg" fixed="top" >
+    <Navbar collapseOnSelect className="navbar" variant="dark" expand="lg" fixed="top" >
       <Container>
         <Navbar.Brand className="brand" href="#home">
            <img

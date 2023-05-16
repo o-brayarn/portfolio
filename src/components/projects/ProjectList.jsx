@@ -25,7 +25,7 @@ const ProjectList = () => {
     image: {},
     livelink: "https://o-brayarn.github.io/vallie-s-estate/",
     repository: "https://github.com/o-brayarn/vallie-s-estate",
-    description: "Vallie's estate user interface",
+    description: "Vallie's estate user interface. The project was used to explore my UI/UX skills as I was transitioning from Android development to web development.",
     languages: "HTML, CSS3"
   },
   {
@@ -46,44 +46,63 @@ const ProjectList = () => {
   }
   
 ]
-    return (
-        <>
-            <div className="portfolio__project-list">
-          <div className="portfolio__project-list__image">
-            <img src={braeda} alt="braeda" />
-          </div>
-          <div className="portfolio__project-list__details">
-            <p className="portfolio__project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste quo quisquam facilis labore hic eaque, natus ad, ullam pariatur nobis numquam exercitationem possimus doloribus. Repudiandae sequi aliquam corrupti omnis blanditiis, quibusdam quod veniam architecto ullam earum error quaerat nemo recusandae dicta similique, debitis molestias. Suscipit sit culpa aut illum rerum.</p>
-          </div>
+return (
+    <>
+        <div className="portfolio__project-list">
+            <div className="portfolio__project-list__image">
+                <img src={braeda} alt="braeda" />
+            </div>
+            <div className="portfolio__project-list__details">
+                <h3>{projectList[0].name }</h3>
+                <p className="portfolio__project-description">{projectList[0].description}</p>
+                <p>languages: {projectList[0].languages }</p>
+            </div>
         </div>
 
-         <div className="portfolio__project-list1">
-          <div className="portfolio__project-list__image">
-            <img src={braeda} alt="braeda" />
-          </div>
-          <div className="portfolio__project-list__details1">
-            <p className="portfolio__project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste quo quisquam facilis labore hic eaque, natus ad, ullam pariatur nobis numquam exercitationem possimus doloribus. Repudiandae sequi aliquam corrupti omnis blanditiis, quibusdam quod veniam architecto ullam earum error quaerat nemo recusandae dicta similique, debitis molestias. Suscipit sit culpa aut illum rerum.</p>
-          </div>
+        <div className="portfolio__project-list1">
+            <div className="portfolio__project-list__image">
+                <img src={braeda} alt="braeda" />
+            </div>
+            <div className="portfolio__project-list__details1">
+                <h3>{projectList[1].name }</h3>
+                <p className="portfolio__project-description">{projectList[1].description}</p>
+                <p>languages: {projectList[1].languages }</p>
+            </div>
         </div>
 
-         <div className="portfolio__project-list2">
-          <div className="portfolio__project-list__image">
-            <img src={braeda} alt="braeda" />
-          </div>
-          <div className="portfolio__project-list__details">
-            <p className="portfolio__project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste quo quisquam facilis labore hic eaque, natus ad, ullam pariatur nobis numquam exercitationem possimus doloribus. Repudiandae sequi aliquam corrupti omnis blanditiis, quibusdam quod veniam architecto ullam earum error quaerat nemo recusandae dicta similique, debitis molestias. Suscipit sit culpa aut illum rerum.</p>
-          </div>
+        <div className="portfolio__project-list2">
+            <div className="portfolio__project-list__image">
+                <img src={braeda} alt="braeda" />
+            </div>
+            <div className="portfolio__project-list__details">
+                <h3>{projectList[2].name }</h3>
+                <p className="portfolio__project-description">{projectList[2].description}</p>
+                <p>languages: {projectList[2].languages }</p>
+            </div>
         </div>
 
-         <div className="portfolio__project-list3">
-          <div className="portfolio__project-list__image">
-            <img src={braeda} alt="braeda" />
-          </div>
-          <div className="portfolio__project-list__details3">
-            <p className="portfolio__project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste quo quisquam facilis labore hic eaque, natus ad, ullam pariatur nobis numquam exercitationem possimus doloribus. Repudiandae sequi aliquam corrupti omnis blanditiis, quibusdam quod veniam architecto ullam earum error quaerat nemo recusandae dicta similique, debitis molestias. Suscipit sit culpa aut illum rerum.</p>
-          </div>
+        <div className="portfolio__project-list3">
+            <div className="portfolio__project-list__image">
+                <img src={braeda} alt="braeda" />
+            </div>
+            <div className="portfolio__project-list__details3">
+                <h3>{projectList[3].name }</h3>
+                <p className="portfolio__project-description">{projectList[3].description}</p>
+                <p>languages: {projectList[3].languages }</p>
+            </div>
         </div>
-        </>
+
+        <div className="portfolio__project-list4">
+            <div className="portfolio__project-list__image">
+                <img src={braeda} alt="braeda" />
+            </div>
+            <div className="portfolio__project-list__details">
+                <h3>{projectList[4].name }</h3>
+                <p className="portfolio__project-description">{projectList[4].description}</p>
+                <p>languages: {projectList[4].languages }</p>
+            </div>
+        </div>
+    </>
         
   )
 }

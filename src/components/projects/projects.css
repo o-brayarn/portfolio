@@ -14,7 +14,8 @@
 }
 
 .portfolio__project-list,
-.portfolio__project-list2 {
+.portfolio__project-list2,
+.portfolio__project-list4 {
   display: flex;
   justify-content: center;
   align-items: center;

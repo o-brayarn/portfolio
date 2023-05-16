@@ -100,7 +100,11 @@
 }
 
 /* Media queries */
-@media screen and (max-width: 1050px) {}
-@media screen and (max-width: 992px) {}
-@media screen and (max-width: 650px) {}
-@media screen and (max-width: 490px) {}
+@media screen and (max-width: 1050px) {
+}
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 650px) {
+}
+@media screen and (max-width: 490px) {
+}

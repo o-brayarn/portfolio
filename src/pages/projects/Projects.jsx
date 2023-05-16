@@ -1,6 +1,5 @@
 import React from 'react';
-import ProjectList from './ProjectList';
-import './projects.css';
+import {ProjectList} from '../../components';
 
 export default function Projects() {
   

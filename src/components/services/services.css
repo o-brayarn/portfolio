@@ -26,7 +26,8 @@
   border: none !important;
   border-radius: 10px !important;
   box-shadow: 0 3px 6px var(--secondary-text-color) !important;
-  background-color: var(--color-bg) !important;
+  /* background-color: var(--color-bg) !important; */
+  background: #172a45 !important;
 }
 .card-body {
   font-family: var(--font-family) !important;

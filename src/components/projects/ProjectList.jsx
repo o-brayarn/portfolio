@@ -28,7 +28,7 @@ const ProjectList = () => {
     languages: "HTML, CSS3"
   },
   {
-    name: "Bookwarmers Shelf",
+    name: "Bookwarmers' Shelf",
     livelink: "https://bookwarmers-shelf.vercel.app/",
     repository: "https://github.com/o-brayarn/bookwarmers-shelf",
     description: "Bookwarmers' Shelf is a book planner or book tracker that allows a reader to add the books they plan to read during the month, and mark them as read once they are done with them. The read books are moved to another section/page for the reader to keep track of their reading journey. In addition, they can also go back to the books for rereads.",
@@ -55,8 +55,8 @@ return (
                 <p>
                     <span> languages:</span> {projectList[0].languages}
                     <span className='project__list-links'>
-                        <a href={projectList[0].livelink}><GoLinkExternal color="tomato" size={18}/></a>
-                        <a href={projectList[0].repository}><FaGithub color="tomato" size={18}/></a>
+                        <a href={projectList[0].livelink} target="_blank"  rel="noopener noreferrer"><GoLinkExternal color="tomato" size={18}/></a>
+                        <a href={projectList[0].repository} target="_blank"  rel="noopener noreferrer"><FaGithub color="tomato" size={18}/></a>
                     </span>
                 </p>
             </div>
@@ -72,8 +72,8 @@ return (
                 <p>
                     <span> languages:</span> {projectList[1].languages}
                     <span className='project__list-links'>
-                        <a href={projectList[1].livelink}><GoLinkExternal color="tomato" size={18}  /></a>
-                        <a href={projectList[1].repository}><FaGithub color="tomato" size={18}  /></a>
+                        <a href={projectList[1].livelink} target="_blank"  rel="noopener noreferrer"><GoLinkExternal color="tomato" size={18}  /></a>
+                        <a href={projectList[1].repository} target="_blank"  rel="noopener noreferrer"><FaGithub color="tomato" size={18}  /></a>
                     </span>
                 </p>
             </div>
@@ -89,8 +89,8 @@ return (
                 <p>
                     <span> languages:</span>  {projectList[2].languages}
                     <span className='project__list-links'>
-                        <a href={projectList[2].livelink}><GoLinkExternal color="tomato" size={18}  /></a>
-                        <a href={projectList[2].repository}><FaGithub color="tomato" size={18}  /></a>
+                        <a href={projectList[2].livelink} target="_blank"  rel="noopener noreferrer"><GoLinkExternal color="tomato" size={18}  /></a>
+                        <a href={projectList[2].repository} target="_blank"  rel="noopener noreferrer"><FaGithub color="tomato" size={18}  /></a>
                     </span>
                 </p>
             </div>
@@ -106,8 +106,8 @@ return (
                 <p>
                     <span> languages:</span>  {projectList[3].languages}
                     <span className='project__list-links'>
-                        <a href={projectList[3].livelink}><GoLinkExternal color="tomato" size={18}  /></a>
-                        <a href={projectList[3].repository}><FaGithub color="tomato" size={18}  /></a>
+                        <a href={projectList[3].livelink} target="_blank"  rel="noopener noreferrer"><GoLinkExternal color="tomato" size={18}  /></a>
+                        <a href={projectList[3].repository} target="_blank"  rel="noopener noreferrer"><FaGithub color="tomato" size={18}  /></a>
                     </span>
                 </p>
             </div>
@@ -123,8 +123,8 @@ return (
                 <p>
                     <span> languages:</span> {projectList[4].languages}
                     <span className='project__list-links'>
-                        <a href={projectList[4].livelink}><GoLinkExternal color="tomato" size={18} /></a>
-                        <a href={projectList[4].repository}><FaGithub color="tomato" size={18}  /></a>
+                        <a href={projectList[4].livelink} target="_blank"  rel="noopener noreferrer"><GoLinkExternal color="tomato" size={18} /></a>
+                        <a href={projectList[4].repository} target="_blank"  rel="noopener noreferrer"><FaGithub color="tomato" size={18}  /></a>
                     </span>
                 </p>
             </div>

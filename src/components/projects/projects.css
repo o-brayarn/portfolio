@@ -18,3 +18,29 @@
   background: var(--gradient-bar);
   height: 0.15rem;
 }
+
+.portfolio__project-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio__project-list__image {
+  /* width: 80em; */
+  padding: 5rem;
+  border: 2px solid tomato;
+}
+.portfolio__project-list__image img {
+  width: 150%;
+  height: 100%;
+  /* padding: 1em; */
+}
+.portfolio__project-list__details {
+  border: 1px solid tomato;
+  margin-left: -3em;
+  background: #172a45;
+  border-radius: 8px;
+}
+.portfolio__project-list__details .portfolio__project-description {
+  padding: 0.5em;
+  color: #f9f9f9;
+}

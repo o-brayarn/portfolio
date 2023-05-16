@@ -1,6 +1,8 @@
 import React from 'react'
 import { bookwarmers, eventsplug, movieit, mydoctor, vallies } from './imports';
 import './projects.css';
+import { GoLinkExternal } from "react-icons/go"
+import {FaGithub} from "react-icons/fa"
 
 const ProjectList = () => {
         const projectList =[
@@ -48,9 +50,15 @@ return (
                 <img src={mydoctor} alt="braeda" />
             </div>
             <div className="portfolio__project-list__details">
-                <h3>{projectList[0].name }</h3>
+                <h3 className='project__title'>{projectList[0].name }</h3>
                 <p className="portfolio__project-description">{projectList[0].description}</p>
-                <p>languages: {projectList[0].languages }</p>
+                <p>
+                    <span> languages:</span> {projectList[0].languages}
+                    <span className='project__list-links'>
+                        <a href={projectList[0].livelink}><GoLinkExternal color="tomato" size={18}/></a>
+                        <a href={projectList[0].repository}><FaGithub color="tomato" size={18}/></a>
+                    </span>
+                </p>
             </div>
         </div>
 
@@ -59,9 +67,15 @@ return (
                 <img src={eventsplug} alt="braeda" />
             </div>
             <div className="portfolio__project-list__details1">
-                <h3>{projectList[1].name }</h3>
+                <h3 className='project__title'>{projectList[1].name }</h3>
                 <p className="portfolio__project-description">{projectList[1].description}</p>
-                <p>languages: {projectList[1].languages }</p>
+                <p>
+                    <span> languages:</span> {projectList[1].languages}
+                    <span className='project__list-links'>
+                        <a href={projectList[1].livelink}><GoLinkExternal color="tomato" size={18}  /></a>
+                        <a href={projectList[1].repository}><FaGithub color="tomato" size={18}  /></a>
+                    </span>
+                </p>
             </div>
         </div>
 
@@ -70,9 +84,15 @@ return (
                 <img src={vallies} alt="braeda" />
             </div>
             <div className="portfolio__project-list__details">
-                <h3>{projectList[2].name }</h3>
+                <h3 className='project__title'>{projectList[2].name }</h3>
                 <p className="portfolio__project-description">{projectList[2].description}</p>
-                <p>languages: {projectList[2].languages }</p>
+                <p>
+                    <span> languages:</span>  {projectList[2].languages}
+                    <span className='project__list-links'>
+                        <a href={projectList[2].livelink}><GoLinkExternal color="tomato" size={18}  /></a>
+                        <a href={projectList[2].repository}><FaGithub color="tomato" size={18}  /></a>
+                    </span>
+                </p>
             </div>
         </div>
 
@@ -81,9 +101,15 @@ return (
                 <img src={bookwarmers} alt="braeda" />
             </div>
             <div className="portfolio__project-list__details3">
-                <h3>{projectList[3].name }</h3>
+                <h3 className='project__title'>{projectList[3].name }</h3>
                 <p className="portfolio__project-description">{projectList[3].description}</p>
-                <p>languages: {projectList[3].languages }</p>
+                <p>
+                    <span> languages:</span>  {projectList[3].languages}
+                    <span className='project__list-links'>
+                        <a href={projectList[3].livelink}><GoLinkExternal color="tomato" size={18}  /></a>
+                        <a href={projectList[3].repository}><FaGithub color="tomato" size={18}  /></a>
+                    </span>
+                </p>
             </div>
         </div>
 
@@ -92,9 +118,15 @@ return (
                 <img src={movieit} alt="braeda" />
             </div>
             <div className="portfolio__project-list__details">
-                <h3>{projectList[4].name }</h3>
+                <h3 className='project__title'>{projectList[4].name }</h3>
                 <p className="portfolio__project-description">{projectList[4].description}</p>
-                <p>languages: {projectList[4].languages }</p>
+                <p>
+                    <span> languages:</span> {projectList[4].languages}
+                    <span className='project__list-links'>
+                        <a href={projectList[4].livelink}><GoLinkExternal color="tomato" size={18} /></a>
+                        <a href={projectList[4].repository}><FaGithub color="tomato" size={18}  /></a>
+                    </span>
+                </p>
             </div>
         </div>
     </>

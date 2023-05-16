@@ -92,12 +92,15 @@
 .project__list-links a {
   padding: 0 0.5em;
 }
-.project__list-links a:hover {
-  color: tomato;
-}
 .portfolio__projects hr {
   margin-top: 3rem;
   border: none;
   background: var(--gradient-bar);
   height: 0.15rem;
 }
+
+/* Media queries */
+@media screen and (max-width: 1050px) {}
+@media screen and (max-width: 992px) {}
+@media screen and (max-width: 650px) {}
+@media screen and (max-width: 490px) {}

@@ -1,7 +1,6 @@
 import React from 'react'
 import { braeda } from './imports';
-
-
+import './projects.css';
 
 const ProjectList = () => {
         const projectList =[

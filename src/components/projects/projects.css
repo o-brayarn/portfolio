@@ -6,7 +6,7 @@
 }
 .portfolio__projects-heading h1 {
   font-family: var(--font-family);
-  font-weight: 700;
+  font-weight: 600;
   font-size: 48px;
   line-height: 75px;
   letter-spacing: -0.04em;
@@ -101,10 +101,78 @@
 
 /* Media queries */
 @media screen and (max-width: 1050px) {
+  .portfolio__projects {
+    margin-top: 2rem;
+    margin-right: 1em;
+  }
 }
 @media screen and (max-width: 992px) {
+  .portfolio__project-list,
+  .portfolio__project-list2,
+  .portfolio__project-list4,
+  .portfolio__project-list1,
+  .portfolio__project-list3 {
+    margin: 1rem 0;
+  }
+  .portfolio__project-list__details p,
+  .portfolio__project-list__details1 p,
+  .portfolio__project-list__details3 p {
+    line-height: 24px;
+    font-size: 16px;
+  }
+  .portfolio__project-list__image img {
+    height: auto;
+  }
+}
+@media screen and (max-width: 780px) {
+  .portfolio__projects-heading h1 {
+    font-size: 40px;
+    line-height: 70px;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .portfolio__project-list,
+  .portfolio__project-list2,
+  .portfolio__project-list4,
+  .portfolio__project-list1,
+  .portfolio__project-list3 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0;
+  }
+  .portfolio__project-list__image img {
+    width: 100%;
+    height: auto;
+  }
+  .portfolio__project-list__details,
+  .portfolio__project-list__details1,
+  .portfolio__project-list__details3 {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
 }
 @media screen and (max-width: 650px) {
+  .portfolio__projects-heading h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .project__title {
+    font-size: 18px;
+  }
 }
 @media screen and (max-width: 490px) {
+  .portfolio__projects-heading h1 {
+    font-size: 25px;
+    line-height: 48px;
+  }
+  .project__title {
+    font-size: 16px;
+  }
+  .portfolio__project-list__details p,
+  .portfolio__project-list__details1 p,
+  .portfolio__project-list__details3 p {
+    line-height: 20px;
+    font-size: 12px;
+  }
 }

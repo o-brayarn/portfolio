@@ -21,11 +21,11 @@ export default function Contact() {
   };
   return (
     <section id='contact'>
-      <h1 className="contact__me-heading gradient__text">Contact Me</h1>
+      <h1 className="contact__me-heading gradient__text">Get in touch</h1>
       <div className="contact__me-details">
         <div className="contact__me-info">
           <img src={contacts} alt="contactme illustration" />
-          <h5 className='gradient__text'>Get in touch</h5>
+          <h5 className='gradient__text'>software engineer</h5>
           <p> <span> Email: {" "}</span>brayarnogeda@gmail.com</p>
           <p><span> Phone:{" "}</span>+254741280129</p>
           <p>Open for fulltime and freelance opportunities. Let's connect and build something awesome together!</p>

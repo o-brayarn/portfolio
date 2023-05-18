@@ -41,8 +41,6 @@ export default function Contact() {
               <input type="text" name="user_name" required />
               <label>Email<span>*</span></label>
               <input type="email" name="user_email" required />
-              <label>Subject<span>*</span></label>
-              <input type="text" name="user_subject" required />
               <label>Phone Number<span>*</span></label>
               <input type="text" name="user_phone" required />
               <label>Message<span>*</span></label>

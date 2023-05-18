@@ -29,10 +29,12 @@ export default function Contact() {
           <p> <span> Email: {" "}</span>brayarnogeda@gmail.com</p>
           <p><span> Phone:{" "}</span>+254741280129</p>
           <p>Open for fulltime and freelance opportunities. Let's connect and build something awesome together!</p>
+          
           <div className='contact__me-socials'>
             <p>Find me on:</p>
             <Socials />
           </div>
+
         </div>
 
         <div className="contact__me-form">
